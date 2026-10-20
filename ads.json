@@ -1,0 +1,41 @@
+{
+  "_help": "Abhi sirf GrowMyPin ka video ad ON hai. Naya ad chalana ho to uska active true karo. video = repo me mp4 file ka naam, poster = video load hone tak dikhne wali image. url http se shuru hona chahiye.",
+  "ads": [
+    {
+      "id": "growmypin-video",
+      "title": "GrowMyPin",
+      "text": "Etsy aur Shopify sellers ke liye Pinterest marketing. 3 din free trial.",
+      "cta": "Free trial lo",
+      "url": "https://growmypin.vercel.app",
+      "video": "growmypin-ad.mp4",
+      "poster": "growmypin-ad.jpg",
+      "color": "#0F7A68",
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "infimagen",
+      "title": "InfimagenAI - AI se images banao",
+      "text": "Product photos, posters, thumbnails - seconds me.",
+      "cta": "Try karo",
+      "url": "https://infimagen.in",
+      "active": false
+    },
+    {
+      "id": "moonweaves",
+      "title": "MoonWeaves - Ethnic wear",
+      "text": "Naya collection live hai.",
+      "cta": "Shop now",
+      "url": "PASTE-MOONWEAVES-LINK-HERE",
+      "active": false
+    },
+    {
+      "id": "coursemarket",
+      "title": "CourseMarket - Digital products",
+      "text": "Courses, templates aur guides ek jagah.",
+      "cta": "Dekho",
+      "url": "PASTE-COURSEMARKET-LINK-HERE",
+      "active": false
+    }
+  ]
+}
