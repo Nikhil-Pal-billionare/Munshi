@@ -1112,7 +1112,7 @@ function render(){
   done.sort(function(a,b){ return (b.doneAt||0)-(a.doneAt||0); });
   over.sort(function(a,b){ return prInfo(b).s-prInfo(a).s || a.when-b.when; });
   var html=section('Late ho gaye',over,'late')+section('Aaj',today)+section('Kal',tom)+section('Aage',later)+section('Inbox, bina time',notes)+section('Ho gaye',done.slice(0,15));
-  if(!S.tasks.length) html='<div class="empty" style="margin-top:22px"><b>Bahi-khata khaali hai</b>Neeche mic dabao aur bolo: "kal subah 10 baje client ko invoice bhejna hai"</div>';
+  if(!S.tasks.length) html='<div class="empty" style="margin-top:22px"><b>Accounts Page is Empty </b> Press the MIC below and command : "Call him at tomorrow 9AM"</div>';
   $('#lists').innerHTML=html;
   $('#sOver').textContent=over.length; $('#statOver').classList.toggle('has',over.length>0);
   $('#sToday').textContent=today.length;
