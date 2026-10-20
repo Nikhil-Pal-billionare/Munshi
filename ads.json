@@ -1,0 +1,60 @@
+{
+  "_help": "Har ad ek block hai. url http se shuru hona chahiye warna ad nahi dikhega. active false = band. weight jitna zyada utna zyada dikhega. start/end (YYYY-MM-DD) optional - sale campaigns ke liye. img optional (repo me image daalo, jaise ads/infimagen.png, ya pura https link). color optional hex.",
+  "ads": [
+    {
+      "id": "infimagen",
+      "title": "InfimagenAI - AI se images banao",
+      "text": "Product photos, posters, thumbnails - seconds me.",
+      "cta": "Try karo",
+      "url": "https://infimagen.in",
+      "img": "",
+      "color": "#ffb020",
+      "weight": 3,
+      "active": true
+    },
+    {
+      "id": "growmypin",
+      "title": "GrowMyPin - Pinterest se sales badhao",
+      "text": "Etsy/Shopify sellers ke liye done-for-you Pinterest marketing.",
+      "cta": "Free audit",
+      "url": "PASTE-GROWMYPIN-LINK-HERE",
+      "img": "",
+      "color": "#e60023",
+      "weight": 3,
+      "active": true
+    },
+    {
+      "id": "moonweaves",
+      "title": "MoonWeaves - Ethnic wear",
+      "text": "Naya collection live hai.",
+      "cta": "Shop now",
+      "url": "PASTE-MOONWEAVES-LINK-HERE",
+      "img": "",
+      "color": "#a78bfa",
+      "weight": 2,
+      "active": true
+    },
+    {
+      "id": "coursemarket",
+      "title": "CourseMarket - Digital products",
+      "text": "Courses, templates aur guides ek jagah.",
+      "cta": "Dekho",
+      "url": "PASTE-COURSEMARKET-LINK-HERE",
+      "img": "",
+      "color": "#22c55e",
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "diwali-sale",
+      "title": "Diwali Sale - 30% off",
+      "text": "Sirf is hafte. Example campaign - apna link daalo ya active false rakho.",
+      "cta": "Grab deal",
+      "url": "PASTE-SALE-LINK-HERE",
+      "start": "2026-10-25",
+      "end": "2026-11-10",
+      "weight": 5,
+      "active": false
+    }
+  ]
+}
