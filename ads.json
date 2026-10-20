@@ -1,0 +1,41 @@
+{
+  "_help": "Only the GrowMyPin video ad is on. To run another ad set its active to true. video = mp4 file name in the site folder, poster = image shown while the video loads. url must start with http.",
+  "ads": [
+    {
+      "id": "growmypin-video",
+      "title": "GrowMyPin",
+      "text": "Pinterest marketing for Etsy and Shopify sellers. 3-day free trial.",
+      "cta": "Start free trial",
+      "url": "https://growmypin.vercel.app",
+      "video": "growmypin-ad.mp4",
+      "poster": "growmypin-ad.jpg",
+      "color": "#0F7A68",
+      "weight": 1,
+      "active": true
+    },
+    {
+      "id": "infimagen",
+      "title": "InfimagenAI - Create images with AI",
+      "text": "Product photos, posters and thumbnails in seconds.",
+      "cta": "Try it",
+      "url": "https://infimagen.in",
+      "active": false
+    },
+    {
+      "id": "moonweaves",
+      "title": "MoonWeaves - Ethnic wear",
+      "text": "New collection is live.",
+      "cta": "Shop now",
+      "url": "PASTE-MOONWEAVES-LINK-HERE",
+      "active": false
+    },
+    {
+      "id": "coursemarket",
+      "title": "CourseMarket - Digital products",
+      "text": "Courses, templates and guides in one place.",
+      "cta": "Explore",
+      "url": "PASTE-COURSEMARKET-LINK-HERE",
+      "active": false
+    }
+  ]
+}
